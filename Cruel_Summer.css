@@ -1,0 +1,53 @@
+body{
+    background-color: #FF9A9A;
+    font-family: "Arimo", cursive;
+}
+
+.atas{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gambar{
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.isi h1{
+    font-family: "Arimo", cursive;
+    color: white;
+    font-size: 50px;
+}
+
+.isi h2{
+    font-family: "Arimo", cursive;
+    color: white;
+    font-size: 30px;
+}
+
+.lagu{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main{
+    font-family: "Arimo", cursive;
+    display: flex;
+    gap: 20px;
+    color: white;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lb, .ulasan, .rating{
+    flex: 1;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    font-size: 20px;
+}
