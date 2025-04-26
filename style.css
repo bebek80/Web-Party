@@ -70,7 +70,7 @@ nav a.active {
     font-size: 1.8rem;
 }
 
-.music-item {
+.link {
     background: white;
     padding: 15px;
     margin-bottom: 10px;
@@ -79,7 +79,7 @@ nav a.active {
     
 }
 
-.music-item:hover {
+.link:hover {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 footer{
